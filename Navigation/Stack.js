@@ -14,6 +14,7 @@ export default () => (
         shadowColor: "black",
       },
       headerTintColor: "white",
+      headerBackTitleVisible: false,
     }}
   >
     <Stack.Screen name="Tabs" component={Tabs} />
